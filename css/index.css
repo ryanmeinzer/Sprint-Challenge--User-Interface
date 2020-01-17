@@ -89,7 +89,6 @@ section nav {
 }
 
 .links {
-	color: gray;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -195,16 +194,13 @@ section nav {
 footer {
     width: 100%;
     background: black;
-    /* height: 20%; */
 }
 
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    /* align-content: flex-start; */
-    align-items: center;
-    /* text-align: left; */
+    margin: 0 80px 0 0;
     padding: 20px 2%;
     font-size: 14px;
 }
