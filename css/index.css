@@ -97,7 +97,11 @@ section nav {
 }
 
 .logo-container {
-	width: 15%;
+    width: 15%;
+}
+
+.top-image-section {
+    margin: 0 0 30px;
 }
 
 /* Start Top Content */
@@ -191,14 +195,17 @@ section nav {
 footer {
     width: 100%;
     background: black;
+    /* height: 20%; */
 }
 
 footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    align-content: flex-start;
+    align-items: flex-start;
+    /* text-align: left; */
+    /* padding: 0 1%; */
     font-size: 14px;
 }
 
