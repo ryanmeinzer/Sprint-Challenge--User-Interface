@@ -48,7 +48,7 @@ table {
 }
 
 * {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     box-sizing: border-box;
 }
 
@@ -202,10 +202,10 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
-    align-items: flex-start;
+    /* align-content: flex-start; */
+    align-items: center;
     /* text-align: left; */
-    /* padding: 0 1%; */
+    padding: 20px 2%;
     font-size: 14px;
 }
 
@@ -232,12 +232,13 @@ hr {
 	width: 48%;
 	height: auto;
 	margin: 30px 0;
-	padding: 15px;
+    padding: 15px;
+    border-bottom: 1px dashed black;
 }
 
 button {
 	border-radius: 5px;
-	font-size: 10px;
+	font-size: 15px;
 	width: 30%;
 	height: 10%;
 	margin: 15px 0;
@@ -247,4 +248,12 @@ button {
 .row-1, .row-2 {
 	display: flex;
 	justify-content: space-between;
+}
+
+.middle-section img {
+    margin: 0 0 10px;
+}
+
+.Work-Together {
+    margin: 30px 0;
 }
