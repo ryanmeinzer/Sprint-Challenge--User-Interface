@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,6 +48,7 @@ table {
 }
 
 * {
+    /* border: 1px solid black; */
     box-sizing: border-box;
 }
 
@@ -62,6 +63,8 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+/* Start CSS */
+
 p {
     line-height: 1.4;
 }
@@ -70,6 +73,37 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/* .container {
+	width: 90%;
+	margin: 0 auto;
+} */
+
+/* Start Navigation Content */
+
+section nav {
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	margin: 30px auto;
+}
+
+.links {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 75%;
+}
+
+.logo-container {
+    width: 15%;
+}
+
+.top-image-section {
+    margin: 0 0 30px;
+}
+
+/* Start Top Content */
 
 .top-content {
     display: flex;
@@ -104,12 +138,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -135,7 +200,7 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 0 80px 0 0;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -143,4 +208,48 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Services.html CSS Start */
+
+.About {
+    margin: 0 0 30px;
+}
+
+hr {
+    border-top: 1px dashed black;
+}
+
+/* Bottom-Middle Section */
+
+.box-services {
+	display: flex;
+	flex-wrap: wrap;
+	width: 48%;
+	height: auto;
+	margin: 30px 0;
+    padding: 15px;
+    border-bottom: 1px dashed black;
+}
+
+button {
+	border-radius: 5px;
+	font-size: 15px;
+	width: 30%;
+	height: 10%;
+	margin: 15px 0;
+	border: 2px solid black;
+}
+
+.row-1, .row-2 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.middle-section img {
+    margin: 0 0 10px;
+}
+
+.Work-Together {
+    margin: 30px 0;
 }
